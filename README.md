@@ -1,5 +1,10 @@
 # Forum-system
-系统功能设计
+
+该部分为社区论坛系统用户端前端代码，使用了Vue脚手架  vuex  axios  buefy element-ui Vditor DarkReader等技术。
+
+
+系统功能设计：
+
 初始界面显示系统公告，每日一句，推广商，以及分页显示最新帖子，还可选择查看七天内最热帖子（根据浏览数对热度进行排序）。
 
 点击具体一个帖子，可查看帖子详情，右侧为作者信息，还有随便看看（其他帖子标题）。
@@ -17,3 +22,9 @@
 还设置了白天黑夜模式。
 
 设有路由守卫，登录，注册页面也均有验证。
+
+其余部分代码：
+
+社区论坛系统管理员前端代码：https://github.com/kwc1907/Forum-System-manage
+
+社区论坛系统整体后端代码：https://github.com/kwc1907/Forum-System-backend
